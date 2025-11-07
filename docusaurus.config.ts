@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Ollyo', // Usually your GitHub org/user name.
-  projectName: 'growfund-documentation', // Usually your repo name.
+  organizationName: 'ahamed', // Usually your GitHub org/user name.
+  projectName: 'growfund-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ahamed/growfund-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -56,7 +56,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/growfund-social-card.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
@@ -65,6 +65,8 @@ const config: Config = {
       logo: {
         alt: 'Growfund Logo',
         src: 'img/logo.svg',
+        width: 32,
+        height: 32
       },
       items: [
         {
@@ -74,7 +76,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/ahamed/growfund-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -96,16 +98,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/getgrowfund',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/getgrowfund',
             },
           ],
         },
@@ -114,12 +112,12 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/ahamed/growfund-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Growfund, All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,

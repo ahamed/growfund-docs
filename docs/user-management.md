@@ -7,6 +7,9 @@ title: User Management
 
 Growfund includes a comprehensive user management system with multiple user roles, each with specific capabilities and dedicated dashboards. This guide explains how to manage users, roles, and permissions in your fundraising platform.
 
+<img width="1157" height="910" alt="image" src="https://github.com/user-attachments/assets/629117e9-a16c-4393-bc23-7b67c7c48a73" />
+
+
 ## Overview
 
 Growfund supports four primary user roles:

@@ -20,6 +20,9 @@ You can only use one mode at a time for your entire platform. The mode you choos
 
 Campaign Mode is designed for reward-based crowdfunding where supporters make pledges in exchange for rewards or perks.
 
+<img width="1800" height="946" alt="image" src="https://github.com/user-attachments/assets/cbb21ea7-6b45-485f-a320-f3d41ecfee81" />
+
+
 ### Key Features
 
 - **Pledges**: Supporters make pledges toward campaigns with funding goals
